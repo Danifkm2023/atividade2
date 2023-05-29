@@ -12,11 +12,8 @@ public class Ex9 {
 
         int maior;
 
-        if (numero1 > numero2) {
-            maior = numero1;
-        } else {
-            maior = numero2;
-        }
+        maior = Math.max(numero1,numero2);
+
 
         System.out.println("O maior número é: " + maior);
 
