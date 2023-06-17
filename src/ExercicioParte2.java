@@ -9,7 +9,7 @@ public class ExercicioParte2 {
          //While
         System.out.println("Usando o loop While");
         int i = 1;
-        while (i  <= 100){
+        while (i >= 100){
         System.out.println(i);
         i++;
     }
